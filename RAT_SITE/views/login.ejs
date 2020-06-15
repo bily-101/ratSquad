@@ -1,0 +1,26 @@
+
+<%- include("partials/header") %>
+
+<div class="container">
+
+<h1>Login</h1>
+<div class="jumbotron">
+<form action="/login" method="POST">
+    <div class="ui input">
+     <input type="text"  placeholder="Username" name="username">
+    <br>
+
+</div>
+<div class="ui input">
+    
+     <input type="password" placeholder="password" name="password">
+</div>
+    <br>
+    <br>
+ 
+    <button class="btn btn-success">Login</button>
+</form>
+</div>
+
+</div>
+<%- include("partials/footer") %>
